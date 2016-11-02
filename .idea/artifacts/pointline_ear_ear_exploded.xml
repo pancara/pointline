@@ -1,0 +1,65 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="pointline-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/pointline-ear/target/pointline-ear-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pointline-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/pointline-ear/target/pointline-ear-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/pointline-ear/src/main/application" />
+      <element id="archive" name="mpos.jar">
+        <element id="artifact" artifact-name="pointline-mpos-ejb:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="pointline-jpa-1.0.jar">
+          <element id="module-output" name="pointline-jpa" />
+        </element>
+        <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
+        <element id="library" level="project" name="Maven: org.json:json:20131018" />
+        <element id="archive" name="pointline-holder-1.0.jar">
+          <element id="module-output" name="pointline-holder" />
+        </element>
+        <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
+        <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+        <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
+        <element id="archive" name="jswitch-misc-1.0.jar">
+          <element id="module-output" name="jswitch-misc" />
+        </element>
+        <element id="archive" name="jswitch-ejb-remote-1.0.jar">
+          <element id="module-output" name="jswitch-ejb-remote" />
+        </element>
+        <element id="library" level="project" name="Maven: id.hardana.emoadmin:hardana-jpa:1.0" />
+      </element>
+      <element id="archive" name="mpos.war">
+        <element id="artifact" artifact-name="pointline-mpos-web:war exploded" />
+      </element>
+      <element id="archive" name="merchant.jar">
+        <element id="artifact" artifact-name="pointline-merchant-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="merchant.war">
+        <element id="artifact" artifact-name="pointline-merchant-web:war exploded" />
+      </element>
+      <element id="archive" name="personal.jar">
+        <element id="artifact" artifact-name="pointline-personal-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="personal.war">
+        <element id="artifact" artifact-name="pointline-personal-web:war exploded" />
+      </element>
+      <element id="archive" name="system.jar">
+        <element id="artifact" artifact-name="pointline-system-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="system.war">
+        <element id="artifact" artifact-name="pointline-system-web:war exploded" />
+      </element>
+      <element id="archive" name="history.jar">
+        <element id="artifact" artifact-name="pointline-history-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="history.war">
+        <element id="artifact" artifact-name="pointline-history-web:war exploded" />
+      </element>
+      <element id="archive" name="transaction.jar">
+        <element id="artifact" artifact-name="pointline-transaction-ejb:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

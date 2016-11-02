@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pointline-personal-web:war exploded">
+    <output-path>$PROJECT_DIR$/pointline-personal-web/target/pointline-personal-web-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pointline-personal-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="pointline-jpa-1.0.jar">
+            <element id="module-output" name="pointline-jpa" />
+          </element>
+          <element id="archive" name="pointline-personal-ejb-1.0.jar">
+            <element id="module-output" name="pointline-personal-ejb" />
+          </element>
+          <element id="archive" name="jswitch-misc-1.0.jar">
+            <element id="module-output" name="jswitch-misc" />
+          </element>
+          <element id="archive" name="jswitch-ejb-remote-1.0.jar">
+            <element id="module-output" name="jswitch-ejb-remote" />
+          </element>
+          <element id="library" level="project" name="Maven: id.hardana.emoadmin:hardana-jpa:1.0" />
+          <element id="archive" name="pointline-system-ejb-1.0.jar">
+            <element id="module-output" name="pointline-system-ejb" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20131018" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/pointline-personal-web/target/pointline-personal-web-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="pointline-personal-web/web/Web" />
+    </root>
+  </artifact>
+</component>

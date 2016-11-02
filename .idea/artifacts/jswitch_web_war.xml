@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jswitch-web:war">
+    <output-path>$PROJECT_DIR$/../../../jswitch/jswitch-web/target</output-path>
+    <root id="archive" name="jswitch-web.war">
+      <element id="artifact" artifact-name="jswitch-web:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,249 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package id.hardana.entity.sys.enums;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ *
+ * @author Arya
+ */
+public enum GroupResponseStatusEnum {
+
+    SUCCESS(0),
+    FAILED(1),
+    UNREGISTERED_APPLICATION(2),
+    ENCRYPTION_ERROR(3),
+    INVALID_APPLICATION_SECRET(4),
+    INACTIVE_APPLICATION(5),
+    INVALID_APPLICATION_TYPE(6),
+    VALID_APPLICATION(7),
+    OPEN_API_NOT_READY(8),
+    OPEN_API_NOT_ALLOWED(9),
+    INVALID_PHONE_NUMBER(10),
+    ALREADY_REGISTERED(11),
+    ACCOUNT_NOT_REGISTERED(12),
+    ACCOUNT_IS_DELETED(13),
+    ACCOUNT_INACTIVE(14),
+    ACCOUNT_BLOCKED(15),
+    INVALID_PASSWORD(16),
+    INTERNAL_ERROR(17),
+    PASSWORD_EXPIRED(18),
+    INVALID_GROUP_MERCHANT_CODE(19),
+    INVALID_USERNAME(20),
+    GROUP_MERCHANT_INACTIVE(21),
+    USER_IS_DELETED(22),
+    USER_INACTIVE(23),
+    INVALID_SESSION(24),
+    SESSION_EXPIRED(25),
+    INVALID_TOKEN(26),
+    TOKEN_EXPIRED(27),
+    VALID(28),
+    EMPTY_PARAMETER(29),
+    EMPTY_LOGIN_SESSION(30),
+    INVALID_GENDER_FORMAT(31),
+    INVALID_EMAIL_ADDRESS(32),
+    INVALID_CITY_ID(33),
+    INVALID_SECRET_QUESTION(34),
+    INVALID_PROVINCE_ID(35),
+    EMPTY_URL_IMAGE(36),
+    INVALID_UPLOAD_IMAGE_TYPE(37),
+    INCOMPLETE_REGISTRATION(38),
+    INVALID_ACTIVATION_CODE(39),
+    INVALID_DATE(40),
+    INVALID_ID_TYPE(41),
+    INVALID_BANK_ID(42),
+    NEW_PASSWORD_EQUALS_WITH_LAST_3_PASSWORD(43),
+    ACCOUNT_ALREDY_ACTIVE(44),
+    CARD_UNKNOWN(45),
+    CARD_BLACKLISTED(46),
+    CARD_DISCARDED(47),
+    INVALID_PIN(48),
+    CARD_ALREADY_ADDED(49),
+    CARD_NOT_FOUND(50),
+    CARD_INACTIVE(51),
+    CARD_BLOCKED(52),
+    CARD_ALREADY_BLOCKED(53),
+    CARD_ALREADY_ACTIVE(54),
+    EMPTY_CARD(55),
+    INVALID_LOCATION(56),
+    INVALID_FORMAT(57),
+    INVALID_OUTLET_ID(58),
+    IMAGE_SIZE_OVER_LIMIT(59),
+    CARD_EXPIRED(60),
+    CARD_BALANCE_OVER_LIMIT(61),
+    TRANSACTION_NOT_FOUND(62),
+    CARD_INSUFICIENT_BALANCE(63),
+    INVOICE_NOT_FOUND(64),
+    INVOICE_CANCELED(65),
+    INVOICE_PAID(66),
+    INVALID_AMOUNT_TO_PAY(67),
+    SUM_OF_ALL_TRANSACTION_AMOUNT_DOES_NOT_EQUAL_INVOICE_AMOUNT(68),
+    TOPUP_HAS_BEEN_DONE(69),
+    REVERSAL_TOPUP_HAS_BEEN_DONE(70),
+    INVALID_INQUIRY_TOPUP_STATUS(71),
+    NO_NEED_REVERSAL_TOPUP(72),
+    INVALID_TOPUP_STATUS(73),
+    UID_NOT_FOUND(74),
+    DUPLICATE_TRANSACTION(75),
+    PERSONAL_BALANCE_OVER_LIMIT(76),
+    PERSONAL_INSUFICIENT_BALANCE(77),
+    INVALID_ITEM_ID(78),
+    RESERVED_79(79),
+    MERCHANT_CODE_NOT_FOUND_IN_CURRENT_GROUP(80),
+    NO_MERCHANT_AFFILIATED_IN_CURRENT_GROUP(81),
+    MERCHANT_ID_IS_NULL(82),
+    EMPTY_MERCHANT_ID(83),
+    RESERVED_84(84),
+    RESERVED_85(85),
+    RESERVED_86(86),
+    RESERVED_87(87),
+    RESERVED_88(88),
+    RESERVED_89(89),
+    RESERVED_90(90),
+    RESERVED_91(91),
+    RESERVED_92(92),
+    RESERVED_93(93),
+    RESERVED_94(94),
+    RESERVED_95(95),
+    RESERVED_96(96),
+    RESERVED_97(97),
+    RESERVED_98(98),
+    RESERVED_99(99),
+    PENDING(100),
+    RESERVED_101(101),
+    RESERVED_102(102),
+    RESERVED_103(103),
+    RESERVED_104(104),
+    RESERVED_105(105),
+    RESERVED_106(106),
+    RESERVED_107(107),
+    RESERVED_108(108),
+    RESERVED_109(109),
+    RESERVED_110(110),
+    RESERVED_111(111),
+    RESERVED_112(112),
+    RESERVED_113(113),
+    RESERVED_114(114),
+    RESERVED_115(115),
+    RESERVED_116(116),
+    RESERVED_117(117),
+    RESERVED_118(118),
+    RESERVED_119(119),
+    RESERVED_120(120),
+    RESERVED_121(121),
+    RESERVED_122(122),
+    RESERVED_123(123),
+    RESERVED_124(124),
+    RESERVED_125(125),
+    RESERVED_126(126),
+    RESERVED_127(127),
+    RESERVED_128(128),
+    RESERVED_129(129),
+    RESERVED_130(130),
+    RESERVED_131(131),
+    RESERVED_132(132),
+    RESERVED_133(133),
+    RESERVED_134(134),
+    RESERVED_135(135),
+    RESERVED_136(136),
+    RESERVED_137(137),
+    RESERVED_138(138),
+    RESERVED_139(139),
+    RESERVED_140(140),
+    RESERVED_141(141),
+    RESERVED_142(142),
+    RESERVED_143(143),
+    RESERVED_144(144),
+    RESERVED_145(145),
+    RESERVED_146(146),
+    RESERVED_147(147),
+    RESERVED_148(148),
+    RESERVED_149(149),
+    QUEUEING(150),
+    RESERVED_151(151),
+    RESERVED_152(152),
+    RESERVED_153(153),
+    RESERVED_154(154),
+    RESERVED_155(155),
+    RESERVED_156(156),
+    RESERVED_157(157),
+    RESERVED_158(158),
+    RESERVED_159(159),
+    RESERVED_160(160),
+    RESERVED_161(161),
+    RESERVED_162(162),
+    RESERVED_163(163),
+    RESERVED_164(164),
+    RESERVED_165(165),
+    RESERVED_166(166),
+    RESERVED_167(167),
+    RESERVED_168(168),
+    RESERVED_169(169),
+    RESERVED_170(170),
+    RESERVED_171(171),
+    RESERVED_172(172),
+    RESERVED_173(173),
+    RESERVED_174(174),
+    RESERVED_175(175),
+    RESERVED_176(176),
+    RESERVED_177(177),
+    RESERVED_178(178),
+    RESERVED_179(179),
+    RESERVED_180(180),
+    RESERVED_181(181),
+    RESERVED_182(182),
+    RESERVED_183(183),
+    RESERVED_184(184),
+    RESERVED_185(185),
+    RESERVED_186(186),
+    RESERVED_187(187),
+    RESERVED_188(188),
+    RESERVED_189(189),
+    RESERVED_190(190),
+    RESERVED_191(191),
+    RESERVED_192(192),
+    RESERVED_193(193),
+    RESERVED_194(194),
+    RESERVED_195(195),
+    RESERVED_196(196),
+    RESERVED_197(197),
+    RESERVED_198(198),
+    RESERVED_199(199),
+    CANCELLED(200);
+
+    private int responseStatusCode;
+    private String responseStatus;
+
+    private static Map<Integer, GroupResponseStatusEnum> codeToResponseStatusMapping;
+
+    private GroupResponseStatusEnum(int responseStatusCode) {
+        this.responseStatusCode = responseStatusCode;
+        this.responseStatus = name();
+    }
+
+    public static GroupResponseStatusEnum getResponseStatus(int i) {
+        if (codeToResponseStatusMapping == null) {
+            initMapping();
+        }
+        return codeToResponseStatusMapping.get(i);
+    }
+
+    private static void initMapping() {
+        codeToResponseStatusMapping = new HashMap<Integer, GroupResponseStatusEnum>();
+        for (GroupResponseStatusEnum m : values()) {
+            codeToResponseStatusMapping.put(m.responseStatusCode, m);
+        }
+    }
+
+    public String getResponseStatusCode() {
+        return String.valueOf(responseStatusCode);
+    }
+
+    public String getResponseStatus() {
+        return responseStatus;
+    }
+}

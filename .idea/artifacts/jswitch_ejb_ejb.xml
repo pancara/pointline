@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="jswitch-ejb:ejb">
+    <output-path>$PROJECT_DIR$/../../../jswitch/jswitch-ejb/target</output-path>
+    <root id="archive" name="jswitch-ejb.jar">
+      <element id="artifact" artifact-name="jswitch-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pointline-mpos-web:war">
+    <output-path>$PROJECT_DIR$/pointline-mpos-web/target</output-path>
+    <root id="archive" name="pointline-mpos-web-1.0.war">
+      <element id="artifact" artifact-name="pointline-mpos-web:war exploded" />
+    </root>
+  </artifact>
+</component>

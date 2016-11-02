@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="jswitch-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/../../../jswitch/jswitch-ear/target/jswitch-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jswitch-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../../jswitch/jswitch-ear/target/jswitch-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/../../../jswitch/jswitch-ear/src/main/application" />
+      <element id="archive" name="jswitch-ejb">
+        <element id="artifact" artifact-name="jswitch-ejb:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: id.hardana.emoadmin:hardana-jpa:1.0" />
+        <element id="archive" name="jswitch-ejb-local-1.0.jar">
+          <element id="module-output" name="jswitch-ejb-local" />
+        </element>
+        <element id="archive" name="jswitch-ejb-remote-1.0.jar">
+          <element id="module-output" name="jswitch-ejb-remote" />
+        </element>
+        <element id="archive" name="jswitch-misc-1.0.jar">
+          <element id="module-output" name="jswitch-misc" />
+        </element>
+        <element id="archive" name="jswitch-util-1.0.jar">
+          <element id="module-output" name="jswitch-util" />
+        </element>
+        <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+        <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+        <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.1" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.3" />
+        <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        <element id="library" level="project" name="Maven: org.apache.httpcomponents:fluent-hc:4.5.1" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.4" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.4" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" />
+        <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.5" />
+        <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.5" />
+      </element>
+      <element id="archive" name="jswitch-web">
+        <element id="artifact" artifact-name="jswitch-web:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

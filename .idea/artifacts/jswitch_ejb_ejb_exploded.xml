@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="jswitch-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/../../../jswitch/jswitch-ejb/target/jswitch-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jswitch-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../../jswitch/jswitch-ejb/target/jswitch-ejb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="jswitch-ejb" />
+    </root>
+  </artifact>
+</component>

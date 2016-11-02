@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="jswitch-ear:ear">
+    <output-path>$PROJECT_DIR$/../../../jswitch/jswitch-ear/target</output-path>
+    <root id="archive" name="jswitch-ear.ear">
+      <element id="artifact" artifact-name="jswitch-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

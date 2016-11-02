@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pointline-merchant-web:war">
+    <output-path>$PROJECT_DIR$/pointline-merchant-web/target</output-path>
+    <root id="archive" name="pointline-merchant-web-1.0.war">
+      <element id="artifact" artifact-name="pointline-merchant-web:war exploded" />
+    </root>
+  </artifact>
+</component>

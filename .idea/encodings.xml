@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/pointline-ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-history-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-history-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-holder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-merchant-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-merchant-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-misc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-mpos-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-mpos-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-personal-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-personal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-system-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-system-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-transaction-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-transaction-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-transaction-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-transaction-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-transaction-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pointline-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../jswitch/jswitch-ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../jswitch/jswitch-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../jswitch/jswitch-web" charset="UTF-8" />
+  </component>
+</project>

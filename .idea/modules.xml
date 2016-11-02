@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-ear/jswitch-ear.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-ear/jswitch-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-ejb/jswitch-ejb.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-ejb/jswitch-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-ejb-local/jswitch-ejb-local.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-ejb-local/jswitch-ejb-local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-ejb-remote/jswitch-ejb-remote.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-ejb-remote/jswitch-ejb-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-misc/jswitch-misc.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-misc/jswitch-misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-util/jswitch-util.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-util/jswitch-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../jswitch/jswitch-web/jswitch-web.iml" filepath="$PROJECT_DIR$/../../../jswitch/jswitch-web/jswitch-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline.iml" filepath="$PROJECT_DIR$/pointline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-ear/pointline-ear.iml" filepath="$PROJECT_DIR$/pointline-ear/pointline-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-ejb/pointline-ejb.iml" filepath="$PROJECT_DIR$/pointline-ejb/pointline-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-history-ejb/pointline-history-ejb.iml" filepath="$PROJECT_DIR$/pointline-history-ejb/pointline-history-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-history-web/pointline-history-web.iml" filepath="$PROJECT_DIR$/pointline-history-web/pointline-history-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-holder/pointline-holder.iml" filepath="$PROJECT_DIR$/pointline-holder/pointline-holder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-jpa/pointline-jpa.iml" filepath="$PROJECT_DIR$/pointline-jpa/pointline-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-logging/pointline-logging.iml" filepath="$PROJECT_DIR$/pointline-logging/pointline-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-merchant-ejb/pointline-merchant-ejb.iml" filepath="$PROJECT_DIR$/pointline-merchant-ejb/pointline-merchant-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-merchant-web/pointline-merchant-web.iml" filepath="$PROJECT_DIR$/pointline-merchant-web/pointline-merchant-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-misc/pointline-misc.iml" filepath="$PROJECT_DIR$/pointline-misc/pointline-misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-mpos-ejb/pointline-mpos-ejb.iml" filepath="$PROJECT_DIR$/pointline-mpos-ejb/pointline-mpos-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-mpos-web/pointline-mpos-web.iml" filepath="$PROJECT_DIR$/pointline-mpos-web/pointline-mpos-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-personal-ejb/pointline-personal-ejb.iml" filepath="$PROJECT_DIR$/pointline-personal-ejb/pointline-personal-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-personal-web/pointline-personal-web.iml" filepath="$PROJECT_DIR$/pointline-personal-web/pointline-personal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-system-ejb/pointline-system-ejb.iml" filepath="$PROJECT_DIR$/pointline-system-ejb/pointline-system-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-system-web/pointline-system-web.iml" filepath="$PROJECT_DIR$/pointline-system-web/pointline-system-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-transaction-ejb/pointline-transaction-ejb.iml" filepath="$PROJECT_DIR$/pointline-transaction-ejb/pointline-transaction-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-transaction-web/pointline-transaction-web.iml" filepath="$PROJECT_DIR$/pointline-transaction-web/pointline-transaction-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pointline-web/pointline-web.iml" filepath="$PROJECT_DIR$/pointline-web/pointline-web.iml" />
+    </modules>
+  </component>
+</project>

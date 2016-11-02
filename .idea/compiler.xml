@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-ear" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-ear" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-mpos-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-mpos-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-mpos-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-mpos-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-personal-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-personal-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-personal-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-personal-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-merchant-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-merchant-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-merchant-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-merchant-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-system-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-system-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-system-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-system-web" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jswitch-ejb-local" />
+        <module name="jswitch-ejb-remote" />
+        <module name="jswitch-misc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-history-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-history-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-transaction-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-transaction-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-logging" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-logging" />
+      </profile>
+      <profile default="false" name="Annotation profile for transaction-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="transaction-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-jpa" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-jpa" />
+      </profile>
+      <profile default="false" name="Annotation profile for jswitch-ear" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jswitch-ear" />
+      </profile>
+      <profile default="false" name="Annotation profile for jswitch-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jswitch-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for jswitch-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jswitch-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for jswitch-util" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jswitch-util" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-misc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-misc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pointline-holder" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pointline-holder" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jswitch" target="1.5" />
+      <module name="jswitch-ear" target="1.7" />
+      <module name="jswitch-ejb" target="1.7" />
+      <module name="jswitch-ejb-local" target="1.5" />
+      <module name="jswitch-ejb-remote" target="1.5" />
+      <module name="jswitch-misc" target="1.5" />
+      <module name="jswitch-util" target="1.7" />
+      <module name="jswitch-web" target="1.7" />
+      <module name="pointline" target="1.5" />
+      <module name="pointline-ear" target="1.7" />
+      <module name="pointline-ejb" target="1.7" />
+      <module name="pointline-history-ejb" target="1.7" />
+      <module name="pointline-history-web" target="1.7" />
+      <module name="pointline-holder" target="1.7" />
+      <module name="pointline-jpa" target="1.7" />
+      <module name="pointline-logging" target="1.7" />
+      <module name="pointline-merchant-ejb" target="1.7" />
+      <module name="pointline-merchant-web" target="1.7" />
+      <module name="pointline-misc" target="1.7" />
+      <module name="pointline-mpos-ejb" target="1.7" />
+      <module name="pointline-mpos-web" target="1.7" />
+      <module name="pointline-personal-ejb" target="1.7" />
+      <module name="pointline-personal-web" target="1.7" />
+      <module name="pointline-system-ejb" target="1.7" />
+      <module name="pointline-system-web" target="1.7" />
+      <module name="pointline-transaction-ejb" target="1.7" />
+      <module name="pointline-transaction-web" target="1.7" />
+      <module name="pointline-web" target="1.7" />
+      <module name="transaction-ejb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

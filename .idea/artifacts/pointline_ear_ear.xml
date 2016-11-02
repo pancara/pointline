@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="pointline-ear:ear">
+    <output-path>$PROJECT_DIR$/pointline-ear/target</output-path>
+    <root id="archive" name="pointline-ear-1.0.ear">
+      <element id="artifact" artifact-name="pointline-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

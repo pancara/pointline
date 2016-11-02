@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="pointline-system-ejb:ejb">
+    <output-path>$PROJECT_DIR$/pointline-system-ejb/target</output-path>
+    <root id="archive" name="pointline-system-ejb-1.0.jar">
+      <element id="artifact" artifact-name="pointline-system-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

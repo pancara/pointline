@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pointline-system-web:war exploded">
+    <output-path>$PROJECT_DIR$/pointline-system-web/target/pointline-system-web-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pointline-system-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="pointline-jpa-1.0.jar">
+            <element id="module-output" name="pointline-jpa" />
+          </element>
+          <element id="archive" name="pointline-system-ejb-1.0.jar">
+            <element id="module-output" name="pointline-system-ejb" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20131018" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/pointline-system-web/target/pointline-system-web-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="pointline-system-web/web/Web" />
+    </root>
+  </artifact>
+</component>

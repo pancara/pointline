@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="pointline-system-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/pointline-system-ejb/target/pointline-system-ejb-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pointline-system-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/pointline-system-ejb/target/pointline-system-ejb-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="pointline-system-ejb" />
+    </root>
+  </artifact>
+</component>

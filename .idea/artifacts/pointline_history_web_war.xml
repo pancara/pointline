@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pointline-history-web:war">
+    <output-path>$PROJECT_DIR$/pointline-history-web/target</output-path>
+    <root id="archive" name="pointline-history-web-1.0.war">
+      <element id="artifact" artifact-name="pointline-history-web:war exploded" />
+    </root>
+  </artifact>
+</component>
